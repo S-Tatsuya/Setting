@@ -28,10 +28,13 @@ set smartindent
 "括弧補完＋インデント
 "-----------------------
 inoremap { {}<Left>
+inoremap {} {}
 inoremap {<Enter> {}<Left><CR><BS><ESC><S-o>
 inoremap [ []<Left>
+inoremap [] []
 inoremap [<Enter> []<Left><CR><BS><ESC><S-o>
 inoremap ( ()<Left>
+inoremap () ()
 inoremap (<Enter> ()<Left><CR><BS><ESC><S-o>
 
 inoremap " ""<Left>
